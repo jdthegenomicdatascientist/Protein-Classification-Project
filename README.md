@@ -23,6 +23,8 @@
 
 ####  Most amino acid sequences are 500 and below in length. This gives an overall picture of the length and complexity of the amino acid sequences in the dataset and helps to assess how to incorporate these sequences in the modeling process. Amino acids can be handled as text and can be analyzed using classic NLP methods, such as bag-of-words, k-mers/n-grams and text search, as well as modern techniques such as word embedding, contextualized embedding, deep learning and neural language models. Approaches such as one hot encoding can be utilized as well, but based on the size of the amino acid sequence lengths in the above chart it could generate far too many columns and be difficult to deal with for analysis. The most practical option at the moment is Label Encoding which assigns a unique value to each sequence present in the data set.
 
+#### Handling Sequence Data - https://www.sciencedirect.com/science/article/pii/S2001037021000945
+
 ## 4. Data Modeling
 
 ### Initial Modeling
@@ -66,6 +68,7 @@
 #### (3) Create and unsupervised neural net to analyze sequence data.
 
 ## 7. Repo Structure
+
 ├── Data
 ├── Images
 ├── Notebooks
